@@ -1,24 +1,24 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 from pathlib import Path
 import json
+from dotenv import load_dotenv
 from ibm_watson import VisualRecognitionV3
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-KEY_FILE = './watson/python/visual_recognition/mykey.json'
+load_dotenv()
+
 VERSION = '2018-03-19'
 
 IMAGE_PATH = './datasets/imagens/'
 OUT_GENERAL_DATA = './watson/python/visual_recognition/out/{0}_general.json'
 OUT_EXPLICIT_DATA = './watson/python/visual_recognition/out/{0}_explicit.json'
 
-with open(KEY_FILE) as json_file:
-    mykey = json.load(json_file)
-
-authenticator = IAMAuthenticator(mykey["key"])
+authenticator = IAMAuthenticator(os.getenv("IBMKEY"))
 visual_recognition = VisualRecognitionV3(version=VERSION, authenticator=authenticator)
-visual_recognition.set_service_url(mykey["url"])
+visual_recognition.set_service_url(os.getenv("IBMURL"))
 #visual_recognition.disable_SSL_verification()
 
 pathlist = Path(IMAGE_PATH).glob('**/*.jpg')
