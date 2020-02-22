@@ -10,7 +10,7 @@ from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 load_dotenv()
 
-VERSION = '2018-03-19'
+VERSION = '2020-02-22'
 
 IMAGE_PATH = './datasets/imagens/'
 OUT_GENERAL_DATA = './watson/python/visual_recognition/out/{0}_general.json'
