@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "sluice",
+              "score": 0.689
+            },
+            {
+              "class": "sea green color",
+              "score": 0.899
+            },
+            {
+              "class": "greenishness color",
+              "score": 0.71
+            }
+          ]
+        }
+      ],
+      "image": "botanico1.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "vigil light",
+              "score": 0.614,
+              "type_hierarchy": "/lamp/vigil light"
+            },
+            {
+              "class": "lamp",
+              "score": 0.614
+            },
+            {
+              "class": "reddish orange color",
+              "score": 0.83
+            },
+            {
+              "class": "Indian red color",
+              "score": 0.761
+            }
+          ]
+        }
+      ],
+      "image": "marcio-2014.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

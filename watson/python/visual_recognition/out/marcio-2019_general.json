@@ -1,0 +1,26 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "stage",
+              "score": 0.601,
+              "type_hierarchy": "/platform/stage"
+            },
+            {
+              "class": "platform",
+              "score": 0.601
+            }
+          ]
+        }
+      ],
+      "image": "marcio-2019.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "amphitheater",
+              "score": 0.632,
+              "type_hierarchy": "/balcony (of building)/amphitheater"
+            },
+            {
+              "class": "balcony (of building)",
+              "score": 0.632
+            },
+            {
+              "class": "clothing",
+              "score": 0.6
+            },
+            {
+              "class": "gray color",
+              "score": 0.874
+            }
+          ]
+        }
+      ],
+      "image": "escada03.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

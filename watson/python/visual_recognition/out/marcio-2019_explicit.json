@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "explicit",
+          "name": "explicit",
+          "classes": [
+            {
+              "class": "not explicit",
+              "score": 0.998
+            }
+          ]
+        }
+      ],
+      "image": "marcio-2019.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

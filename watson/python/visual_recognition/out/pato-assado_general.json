@@ -1,0 +1,50 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "rotisserie",
+              "score": 0.793,
+              "type_hierarchy": "/building/restaurant/rotisserie"
+            },
+            {
+              "class": "restaurant",
+              "score": 0.793
+            },
+            {
+              "class": "building",
+              "score": 0.793
+            },
+            {
+              "class": "dish",
+              "score": 0.817
+            },
+            {
+              "class": "nutrition",
+              "score": 0.817
+            },
+            {
+              "class": "food",
+              "score": 0.87
+            },
+            {
+              "class": "reddish orange color",
+              "score": 0.808
+            },
+            {
+              "class": "Indian red color",
+              "score": 0.782
+            }
+          ]
+        }
+      ],
+      "image": "pato-assado.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

@@ -1,0 +1,51 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "rotisserie",
+              "score": 0.76,
+              "type_hierarchy": "/building/restaurant/rotisserie"
+            },
+            {
+              "class": "restaurant",
+              "score": 0.76
+            },
+            {
+              "class": "building",
+              "score": 0.76
+            },
+            {
+              "class": "turkey stuffing",
+              "score": 0.645,
+              "type_hierarchy": "/food/food product/turkey stuffing"
+            },
+            {
+              "class": "food product",
+              "score": 0.645
+            },
+            {
+              "class": "food",
+              "score": 0.739
+            },
+            {
+              "class": "light brown color",
+              "score": 0.908
+            },
+            {
+              "class": "chestnut color",
+              "score": 0.715
+            }
+          ]
+        }
+      ],
+      "image": "Frango-assado.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

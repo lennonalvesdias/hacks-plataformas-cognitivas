@@ -1,0 +1,46 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "lion",
+              "score": 0.947,
+              "type_hierarchy": "/animal/mammal/carnivore/feline/big cat/lion"
+            },
+            {
+              "class": "big cat",
+              "score": 0.955
+            },
+            {
+              "class": "feline",
+              "score": 0.957
+            },
+            {
+              "class": "carnivore",
+              "score": 0.963
+            },
+            {
+              "class": "mammal",
+              "score": 0.965
+            },
+            {
+              "class": "animal",
+              "score": 0.977
+            },
+            {
+              "class": "reddish brown color",
+              "score": 0.981
+            }
+          ]
+        }
+      ],
+      "image": "imagem_test3.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

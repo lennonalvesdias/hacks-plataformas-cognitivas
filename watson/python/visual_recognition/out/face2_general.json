@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "person",
+              "score": 0.785
+            }
+          ]
+        }
+      ],
+      "image": "face2.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

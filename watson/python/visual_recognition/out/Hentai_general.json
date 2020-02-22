@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "kisser",
+              "score": 0.678,
+              "type_hierarchy": "/person/kisser"
+            },
+            {
+              "class": "person",
+              "score": 0.678
+            },
+            {
+              "class": "Tyrian purple color",
+              "score": 0.734
+            }
+          ]
+        }
+      ],
+      "image": "Hentai.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

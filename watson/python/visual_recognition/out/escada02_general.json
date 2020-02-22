@@ -1,0 +1,33 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "person",
+              "score": 0.656
+            },
+            {
+              "class": "clothing",
+              "score": 0.601
+            },
+            {
+              "class": "reddish orange color",
+              "score": 0.917
+            },
+            {
+              "class": "dark red color",
+              "score": 0.729
+            }
+          ]
+        }
+      ],
+      "image": "escada02.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

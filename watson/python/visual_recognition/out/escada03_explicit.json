@@ -1,0 +1,16 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "explicit",
+          "name": "explicit",
+          "classes": []
+        }
+      ],
+      "image": "escada03.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

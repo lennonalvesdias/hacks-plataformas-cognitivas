@@ -1,0 +1,47 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "Yorkshire terrier dog",
+              "score": 0.818,
+              "type_hierarchy": "/animal/domestic animal/dog/terrier dog/Yorkshire terrier dog"
+            },
+            {
+              "class": "terrier dog",
+              "score": 0.963
+            },
+            {
+              "class": "dog",
+              "score": 0.964
+            },
+            {
+              "class": "domestic animal",
+              "score": 0.964
+            },
+            {
+              "class": "animal",
+              "score": 0.964
+            },
+            {
+              "class": "cairn",
+              "score": 0.604,
+              "type_hierarchy": "/animal/domestic animal/dog/terrier dog/cairn"
+            },
+            {
+              "class": "light brown color",
+              "score": 0.867
+            }
+          ]
+        }
+      ],
+      "image": "tulico1.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

@@ -1,0 +1,42 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "salad nicoise",
+              "score": 0.947,
+              "type_hierarchy": "/food/nutrition/dish/salad/salad nicoise"
+            },
+            {
+              "class": "salad",
+              "score": 0.947
+            },
+            {
+              "class": "dish",
+              "score": 0.978
+            },
+            {
+              "class": "nutrition",
+              "score": 0.978
+            },
+            {
+              "class": "food",
+              "score": 0.978
+            },
+            {
+              "class": "pale yellow color",
+              "score": 0.892
+            }
+          ]
+        }
+      ],
+      "image": "bacalhoada.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

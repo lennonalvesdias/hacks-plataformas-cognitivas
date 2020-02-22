@@ -1,0 +1,45 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "railcar",
+              "score": 0.693
+            },
+            {
+              "class": "wheeled vehicle",
+              "score": 0.693
+            },
+            {
+              "class": "vehicle",
+              "score": 0.698
+            },
+            {
+              "class": "train",
+              "score": 0.823
+            },
+            {
+              "class": "public transport",
+              "score": 0.8
+            },
+            {
+              "class": "pink color",
+              "score": 0.673
+            },
+            {
+              "class": "reddish brown color",
+              "score": 0.62
+            }
+          ]
+        }
+      ],
+      "image": "train.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

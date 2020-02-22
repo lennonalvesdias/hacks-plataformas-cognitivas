@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "movie poster",
+              "score": 0.666,
+              "type_hierarchy": "/person/movie poster"
+            },
+            {
+              "class": "person",
+              "score": 0.787
+            },
+            {
+              "class": "coal black color",
+              "score": 0.751
+            },
+            {
+              "class": "black color",
+              "score": 0.745
+            }
+          ]
+        }
+      ],
+      "image": "bandido.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

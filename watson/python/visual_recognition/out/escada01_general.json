@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "acrobatics",
+              "score": 0.829,
+              "type_hierarchy": "/sport/acrobatics"
+            },
+            {
+              "class": "sport",
+              "score": 0.83
+            },
+            {
+              "class": "brick red color",
+              "score": 0.804
+            },
+            {
+              "class": "Indian red color",
+              "score": 0.698
+            }
+          ]
+        }
+      ],
+      "image": "escada01.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

@@ -1,0 +1,38 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "Leonberg dog",
+              "score": 0.755,
+              "type_hierarchy": "/animal/domestic animal/dog/Leonberg dog"
+            },
+            {
+              "class": "dog",
+              "score": 0.881
+            },
+            {
+              "class": "domestic animal",
+              "score": 0.881
+            },
+            {
+              "class": "animal",
+              "score": 0.881
+            },
+            {
+              "class": "light brown color",
+              "score": 0.982
+            }
+          ]
+        }
+      ],
+      "image": "imagem_test6.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

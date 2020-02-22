@@ -1,0 +1,62 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "green olive",
+              "score": 0.974,
+              "type_hierarchy": "/food/food product/food ingredient/food seasoning/condiment/relish/green olive"
+            },
+            {
+              "class": "relish",
+              "score": 0.974
+            },
+            {
+              "class": "condiment",
+              "score": 0.974
+            },
+            {
+              "class": "food seasoning",
+              "score": 0.974
+            },
+            {
+              "class": "food ingredient",
+              "score": 0.974
+            },
+            {
+              "class": "food product",
+              "score": 0.974
+            },
+            {
+              "class": "food",
+              "score": 0.974
+            },
+            {
+              "class": "vegetable",
+              "score": 0.783
+            },
+            {
+              "class": "fruit",
+              "score": 0.794
+            },
+            {
+              "class": "seed",
+              "score": 0.777
+            },
+            {
+              "class": "olive color",
+              "score": 1
+            }
+          ]
+        }
+      ],
+      "image": "azeitona-gordal.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

@@ -1,0 +1,21 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "explicit",
+          "name": "explicit",
+          "classes": [
+            {
+              "class": "not explicit",
+              "score": 0.984
+            }
+          ]
+        }
+      ],
+      "image": "face4.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

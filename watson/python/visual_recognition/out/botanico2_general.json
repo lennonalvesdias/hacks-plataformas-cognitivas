@@ -1,0 +1,47 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "crow",
+              "score": 0.618,
+              "type_hierarchy": "/animal/bird/passerine/crow"
+            },
+            {
+              "class": "passerine",
+              "score": 0.912
+            },
+            {
+              "class": "bird",
+              "score": 0.913
+            },
+            {
+              "class": "animal",
+              "score": 0.913
+            },
+            {
+              "class": "American crow",
+              "score": 0.611,
+              "type_hierarchy": "/animal/bird/passerine/American crow"
+            },
+            {
+              "class": "coal black color",
+              "score": 0.915
+            },
+            {
+              "class": "steel blue color",
+              "score": 0.644
+            }
+          ]
+        }
+      ],
+      "image": "botanico2.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

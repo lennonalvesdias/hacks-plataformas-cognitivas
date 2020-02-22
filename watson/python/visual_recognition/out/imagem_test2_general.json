@@ -1,0 +1,33 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "Explosion",
+              "score": 0.793
+            },
+            {
+              "class": "person",
+              "score": 0.733
+            },
+            {
+              "class": "light brown color",
+              "score": 0.938
+            },
+            {
+              "class": "reddish orange color",
+              "score": 0.836
+            }
+          ]
+        }
+      ],
+      "image": "imagem_test2.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}

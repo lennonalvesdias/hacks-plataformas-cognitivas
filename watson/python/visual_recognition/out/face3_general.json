@@ -1,0 +1,29 @@
+{
+  "images": [
+    {
+      "classifiers": [
+        {
+          "classifier_id": "default",
+          "name": "default",
+          "classes": [
+            {
+              "class": "clothing",
+              "score": 0.6
+            },
+            {
+              "class": "alizarine red color",
+              "score": 0.942
+            },
+            {
+              "class": "Indian red color",
+              "score": 0.684
+            }
+          ]
+        }
+      ],
+      "image": "face3.jpg"
+    }
+  ],
+  "images_processed": 1,
+  "custom_classes": 0
+}
