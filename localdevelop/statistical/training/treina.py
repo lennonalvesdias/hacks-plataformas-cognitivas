@@ -6,7 +6,7 @@ import joblib
 
 if __name__ == "__main__":
     # Carrega os dados
-    mydf = pd.read_csv('../../../datasets/statistical/BaseDefault01.csv')
+    mydf = pd.read_csv('datasets/statistical/BaseDefault01.csv')
 
     # Identifica no dataset as variáveis independentes e a variavel alvo
     targetcol = 'default'
@@ -20,7 +20,7 @@ if __name__ == "__main__":
     clf.independentcols = independentcols
     clf_acuracia = clf.score(X=x, y=y)
     print("Modelo 01 (classificador), criado com acurácia de: [{0}]".format(clf_acuracia))
-    joblib.dump(clf, '../../../datasets/statistical/modelo01.joblib')
+    joblib.dump(clf, 'datasets/statistical/modelo01.joblib')
     print("Modelo 01 (classificador) salvo com sucesso.")
 
 
@@ -35,6 +35,6 @@ if __name__ == "__main__":
 
     # Salva ambos os modelos
 
-    joblib.dump(rgs, '../../../datasets/statistical/modelo02.joblib')
+    joblib.dump(rgs, 'datasets/statistical/modelo02.joblib')
     print("Modelo 02 (regressor) salvo com sucesso.")
     pass

@@ -5,7 +5,7 @@ import pandas as pd
 
 if __name__ == "__main__":
     # Carrega os dados
-    mydf = pd.read_csv('../../../datasets/statistical/BaseUnknown03.csv')
+    mydf = pd.read_csv('datasets/statistical/BaseUnknown03.csv')
 
     # Filtra alguns para testes:
     filtrados = mydf.sample(4)

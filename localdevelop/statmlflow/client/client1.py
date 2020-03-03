@@ -12,7 +12,7 @@ if __name__ == "__main__":
     # Prepara chamada
     url = "http://127.0.0.1:1234/invocations" #Coloque aqui a porta escolhida
     headers = {'Content-Type': 'application/json'}
-    conteudo = mysample.to_json( orient='split')
+    conteudo = mysample.to_json(orient='split')
 
     #Chama API
     response = requests.request("POST", url, headers=headers, data=conteudo)
